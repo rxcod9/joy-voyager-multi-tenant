@@ -104,7 +104,7 @@ if (\Illuminate\Support\Str::startsWith(Auth::user()->avatar, 'http://') || \Ill
         <!-- Main Content -->
         <div class="container-fluid">
             <div class="side-body padding-top">
-                @env('local')
+                @env(['local', 'demo'])
                 <div class="alert alert-info">
                     <strong>{{ __('generic.demo_mode') }}:</strong>
                     <p>{{ __('settings.demo_help') }}</p>
