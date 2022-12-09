@@ -76,7 +76,7 @@ class SettingsTableSeeder extends Seeder
         if (!$setting->exists) {
             $setting->fill([
                 'display_name' => __('voyager::seeders.settings.admin.title'),
-                'value'        => 'Voyager Tenant - ' . tenant('name'),
+                'value'        => 'Joy Voyager Multi Tenant - ' . tenant('name'),
                 'details'      => '',
                 'type'         => 'text',
                 'order'        => 1,
