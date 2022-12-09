@@ -65,7 +65,7 @@
 
         <div class="col-xs-12 col-sm-5 col-md-4 login-sidebar">
 
-            @env('local')
+            @env(['local', 'demo'])
             <div class="alert alert-info">
                 <strong>{{ __('generic.demo_mode') }}:</strong>
                 <p>{{ __('settings.demo_help') }}</p>
