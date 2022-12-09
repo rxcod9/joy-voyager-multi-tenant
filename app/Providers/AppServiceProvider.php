@@ -79,7 +79,7 @@ class AppServiceProvider extends ServiceProvider
 
         $router->aliasMiddleware('tenant-admin.user', TenantVoyagerAdminMiddleware::class);
 
-        \URL::forceRootUrl(\Config::get('app.url'));
+        // \URL::forceRootUrl(\Config::get('app.url'));
         // And this if you wanna handle https URL scheme
         // It's not usefull for http://www.example.com, it's just to make it more independant from the constant value
         if (\Str::contains(\Config::get('app.url'), 'https://')) {
