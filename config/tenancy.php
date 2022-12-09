@@ -19,7 +19,7 @@ return [
      */
     'central_domains' => [
         // '127.0.0.1', // 2 central domains with named routes are not supported
-        'localhost',
+        env('APP_CENTRAL_HOST', 'localhost'),
     ],
 
     /**
