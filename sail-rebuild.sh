@@ -1,14 +1,14 @@
 #!/bin/bash
 
-sail artisan config:clear
-sail artisan route:clear
-sail artisan tenants:db-drop
-sail artisan db:wipe
-sail artisan migrate
-sail artisan db:seed --class=VoyagerDatabaseSeeder
-sail artisan tenants:migrate-fresh
-sail artisan tenants:seed --class=Database\\Seeders\\Tenant\\VoyagerDatabaseSeeder
-sail artisan config:clear
-sail artisan route:clear
-sail artisan responsecache:clear
-sail artisan tenants:run responsecache:clear
+./vendor/bin/sail artisan config:clear
+./vendor/bin/sail artisan route:clear
+./vendor/bin/sail artisan tenants:db-drop
+./vendor/bin/sail artisan db:wipe
+./vendor/bin/sail artisan migrate
+./vendor/bin/sail artisan db:seed --class=VoyagerDatabaseSeeder
+./vendor/bin/sail artisan tenants:migrate-fresh
+./vendor/bin/sail artisan tenants:seed --class=Database\\Seeders\\Tenant\\VoyagerDatabaseSeeder
+./vendor/bin/sail artisan config:clear
+./vendor/bin/sail artisan route:clear
+./vendor/bin/sail artisan responsecache:clear
+./vendor/bin/sail artisan tenants:run responsecache:clear
