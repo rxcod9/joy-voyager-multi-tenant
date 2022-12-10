@@ -1,7 +1,7 @@
 {
     "name": "joy/voyager-multi-tenant",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Joy Voyager Multi Tenant. The Missing Admin for Laravel.",
     "keywords": ["framework", "laravel", "voyager", "multi-tenant", "multi-tenancy"],
     "license": "MIT",
     "require": {
