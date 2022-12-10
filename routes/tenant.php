@@ -27,9 +27,7 @@ Route::group([
     ]
 ], function () {
 
-    Route::get('/', function () {
-        return view('tenant-welcome');
-    });
+    Route::get('/', ['uses' => '\App\Http\Controllers\Tenant\IndexController@welcome', 'as' => 'tenant-home']);
 
     Route::group(['prefix' => 'admin'], function () {
         TenantVoyager::routes();
