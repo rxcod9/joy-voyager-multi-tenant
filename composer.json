@@ -2,7 +2,7 @@
     "name": "joy/voyager-multi-tenant",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": ["framework", "laravel", "voyager", "multi-tenant", "multi-tenancy"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
