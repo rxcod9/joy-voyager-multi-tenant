@@ -70,15 +70,15 @@
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     @env('local')
-                                    <a href="http://{{ config('1_tenant_1_domain', 'domain-1-tenant-1.localhost') }}" target="_blank">(http://{{ config('1_tenant_1_domain', 'domain-1-tenant-1.localhost') }})</a><br/>
-                                    <a href="http://{{ config('2_tenant_1_domain', 'domain-2-tenant-1.localhost') }}" target="_blank">(http://{{ config('2_tenant_1_domain', 'domain-2-tenant-1.localhost') }})</a><br/>
-                                    <a href="http://{{ config('1_tenant_2_domain', 'domain-1-tenant-2.localhost') }}" target="_blank">(http://{{ config('1_tenant_2_domain', 'domain-1-tenant-2.localhost') }})</a><br/>
-                                    <a href="http://{{ config('2_tenant_2_domain', 'domain-2-tenant-2.localhost') }}" target="_blank">(http://{{ config('2_tenant_2_domain', 'domain-2-tenant-2.localhost') }})</a><br/>
+                                    <a href="http://{{ config('seed.domains.1_tenant_1_domain', 'domain-1-tenant-1.localhost') }}" target="_blank">(http://{{ config('seed.domains.1_tenant_1_domain', 'domain-1-tenant-1.localhost') }})</a><br/>
+                                    <a href="http://{{ config('seed.domains.2_tenant_1_domain', 'domain-2-tenant-1.localhost') }}" target="_blank">(http://{{ config('seed.domains.2_tenant_1_domain', 'domain-2-tenant-1.localhost') }})</a><br/>
+                                    <a href="http://{{ config('seed.domains.1_tenant_2_domain', 'domain-1-tenant-2.localhost') }}" target="_blank">(http://{{ config('seed.domains.1_tenant_2_domain', 'domain-1-tenant-2.localhost') }})</a><br/>
+                                    <a href="http://{{ config('seed.domains.2_tenant_2_domain', 'domain-2-tenant-2.localhost') }}" target="_blank">(http://{{ config('seed.domains.2_tenant_2_domain', 'domain-2-tenant-2.localhost') }})</a><br/>
                                     @else
-                                    <a href="https://{{ config('1_tenant_1_domain', 'domain-1-tenant-1.localhost') }}" target="_blank">(https://{{ config('1_tenant_1_domain', 'domain-1-tenant-1.localhost') }})</a><br/>
-                                    <a href="https://{{ config('2_tenant_1_domain', 'domain-2-tenant-1.localhost') }}" target="_blank">(https://{{ config('2_tenant_1_domain', 'domain-2-tenant-1.localhost') }})</a><br/>
-                                    <a href="https://{{ config('1_tenant_2_domain', 'domain-1-tenant-2.localhost') }}" target="_blank">(https://{{ config('1_tenant_2_domain', 'domain-1-tenant-2.localhost') }})</a><br/>
-                                    <a href="https://{{ config('2_tenant_2_domain', 'domain-2-tenant-2.localhost') }}" target="_blank">(https://{{ config('2_tenant_2_domain', 'domain-2-tenant-2.localhost') }})</a><br/>
+                                    <a href="https://{{ config('seed.domains.1_tenant_1_domain', 'domain-1-tenant-1.localhost') }}" target="_blank">(https://{{ config('seed.domains.1_tenant_1_domain', 'domain-1-tenant-1.localhost') }})</a><br/>
+                                    <a href="https://{{ config('seed.domains.2_tenant_1_domain', 'domain-2-tenant-1.localhost') }}" target="_blank">(https://{{ config('seed.domains.2_tenant_1_domain', 'domain-2-tenant-1.localhost') }})</a><br/>
+                                    <a href="https://{{ config('seed.domains.1_tenant_2_domain', 'domain-1-tenant-2.localhost') }}" target="_blank">(https://{{ config('seed.domains.1_tenant_2_domain', 'domain-1-tenant-2.localhost') }})</a><br/>
+                                    <a href="https://{{ config('seed.domains.2_tenant_2_domain', 'domain-2-tenant-2.localhost') }}" target="_blank">(https://{{ config('seed.domains.2_tenant_2_domain', 'domain-2-tenant-2.localhost') }})</a><br/>
                                     @endenv
                                 </div>
                             </div>
